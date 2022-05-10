@@ -9,9 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.1",
+    "axios": "^0.27.2",
     "next": "12.1.6",
+    "next-redux-wrapper": "^7.0.5",
+    "node-sass": "^7.0.1",
+    "nookies": "^2.5.2",
+    "prettier": "^2.6.2",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-redux": "^8.0.1"
   },
   "devDependencies": {
     "@types/node": "17.0.31",
