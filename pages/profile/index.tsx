@@ -1,9 +1,9 @@
 import React, { ChangeEvent, FormEvent, useState } from 'react';
-import { CreateUserDto, LoginDto } from '../../utils/api/user/types';
-import { UserApi } from '../../utils/api/user';
+import { CreateUserDto, LoginDto } from '@Api/user/types';
+import { UserApi } from '@Api/user';
 import { setCookie } from 'nookies';
-import { useAppDispatch, useAppSelector } from '../../redux/hooks';
-import { selectUserData, setUserData } from '../../redux/slices/user';
+import { useAppDispatch, useAppSelector } from '@Redux/hooks';
+import { selectUserData, setUserData } from '@Redux/slices/user';
 
 const registerInitialValue = {
   username: '',

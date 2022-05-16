@@ -1,8 +1,8 @@
 import type { AppProps } from 'next/app';
-import { wrapper } from '../redux/store';
+import { wrapper } from '@Redux/store';
 import { parseCookies } from 'nookies';
-import { UserApi } from '../utils/api/user';
-import { setUserData } from '../redux/slices/user';
+import { UserApi } from '@Api/user';
+import { setUserData } from '@Redux/slices/user';
 
 function App({ Component, pageProps }: AppProps) {
   return (
